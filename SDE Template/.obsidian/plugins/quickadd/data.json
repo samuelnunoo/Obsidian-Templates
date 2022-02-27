@@ -139,8 +139,30 @@
       },
       "openFile": true,
       "openFileInMode": "default"
+    },
+    {
+      "id": "1b3eca7d-4701-4833-a6c0-de0c52cc377f",
+      "name": "Dynamic Method",
+      "type": "Macro",
+      "command": true,
+      "macroId": "01982ff8-91ce-4315-bef4-b44666bd0588"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Add",
+      "id": "01982ff8-91ce-4315-bef4-b44666bd0588",
+      "commands": [
+        {
+          "name": "createMethod",
+          "type": "UserScript",
+          "id": "41dbf401-bc29-432a-b16b-a7a9d6516634",
+          "path": "docMeta/Scripts/createMethod.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line"
 }

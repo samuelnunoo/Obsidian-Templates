@@ -13,7 +13,8 @@ title:Responsibility
 
 
 
-## Whiteboarding
+## Research and Design
+
 
 
 
@@ -30,7 +31,8 @@ from "docMeta/Tables/Methods" and [[]]
 ```button
 name Create Method
 type command
-action QuickAdd: Create Method
+action QuickAdd: Dynamic Method
 ```
+
 
 
